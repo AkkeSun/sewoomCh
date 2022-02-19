@@ -9462,8 +9462,8 @@ html {
 }
 
 footer.footer {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
 }
 footer.footer .social-link {
   display: block;
@@ -9481,21 +9481,6 @@ footer.footer .social-link:hover {
   text-decoration: none;
 }
 
-.map {
-  height: 30rem;
-}
-.map iframe {
-  pointer-events: none;
-  height: 100%;
-  width: 100%;
-  border: 0;
-}
-
-@media (max-width: 992px) {
-  .map {
-    height: 75%;
-  }
-}
 .masthead {
   min-height: 45rem;
   position: relative;
@@ -9599,3 +9584,30 @@ footer.footer .social-link:hover {
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
 
+
+@media (min-width: 1024px) {
+  .addressContainer{
+    padding-left: 10rem;
+  }
+}
+
+
+@media (min-width: 480px) {
+  .map{
+    width:50px;
+  }
+}
+
+.kakaoBtn{
+  height: 35px;
+  margin-top: -5px;
+  margin-left: 10px;
+}
+
+.kakaoBtn:hover{
+  cursor:pointer;
+}
+
+.map{
+  width:100%;
+}

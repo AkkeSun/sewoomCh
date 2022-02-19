@@ -81,4 +81,20 @@ function fadeIn(el, display) {
 };
 
 
+//-------------- 카카오맵 로드 ----------------
+function goKakaoMap(){
+    location.href = "https://map.kakao.com/link/to/위레세움교회,37.46578518126496,127.14047519153812";
+}
 
+
+//-------------- 반응형 함수 ----------------
+function activeDeviceFunc(){
+    if($(window).width() > 425){
+        $("#map").attr("src", "/img/map.png");
+        $("#bus2").html("- 버스 2 : 위례역 푸르지오5,6단지 아이페리온 정류장에서 20m")
+    }
+    else {
+        $("#map").attr("src", "/img/blog.jpg");
+        $("#bus2").html("- 버스 2 : 위례역 푸르지오5,6단지 아이페리온<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;정류장에서 20m")
+    }
+}
