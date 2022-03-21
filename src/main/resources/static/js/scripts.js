@@ -94,7 +94,7 @@ function activeDeviceFunc(){
         $("#bus2").html("- 버스 2 : 위례역 푸르지오5,6단지 아이페리온 정류장에서 20m")
     }
     else {
-        $("#map").attr("src", "/img/blog.jpg");
+        $("#map").attr("src", "/img/map.png");
         $("#bus2").html("- 버스 2 : 위례역 푸르지오5,6단지 아이페리온<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;정류장에서 20m")
     }
 }
